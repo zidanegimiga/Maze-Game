@@ -12,5 +12,6 @@
 
 
 bool initializeWindow(void);
+void destroyWindow(void);
 
 #endif /* HEADER_H */
