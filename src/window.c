@@ -53,3 +53,17 @@ bool initializeWindow(void)
 
 	return (true);
 }
+
+/**
+ * destroyWindow - Destroys window
+ *
+*/
+
+void destroyWindow(void)
+{
+	free(colorBuffer);
+	SDL_DestroyTexture(colorBufferTexture);
+	SDL_DestroyRenderer(renderer);
+	SDL_DestroyWindow(window);
+	SDL_Quit();
+}
