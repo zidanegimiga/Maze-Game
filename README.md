@@ -17,3 +17,6 @@ For a while now, i have been using the Betty Style to code all of my C-related p
 [Linux Kernel writing style](https://www.kernel.org/doc/html/latest/process/coding-style.html). This is largely due to the my interest in contributing 
 to kernel open source. I have to start getting my mind used to the coding style. Overall, I find the Linux style much easier especially when maintaining a 
 large repository. Everything seems easier to see when you have been looking at your screen for long hours.
+
+# Installation
+Star the git repository and wait for the damn project to be complete
